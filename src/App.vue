@@ -29,8 +29,14 @@ import { RouterLink, RouterView } from 'vue-router'
   color: #2c3e50;
 }
 
-nav a.router-link-active {
+nav a {
   margin-right: 16px;
+  text-decoration: underline;
+}
+nav a:last-child {
+  margin-right: 0;
+}
+nav a.router-link-active {
   color: #42b983;
 }
 
